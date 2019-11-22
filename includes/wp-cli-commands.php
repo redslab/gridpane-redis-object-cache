@@ -1,6 +1,6 @@
 <?php
 
-WP_CLI::add_command( 'gp-redis', 'RedisObjectCache_CLI_Commands' );
+WP_CLI::add_command( 'redis', 'RedisObjectCache_CLI_Commands' );
 
 class RedisObjectCache_CLI_Commands extends WP_CLI_Command {
 
