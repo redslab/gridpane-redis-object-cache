@@ -1,9 +1,9 @@
 # GridPane Redis Object Cache
 Tags: redis, predis, phpredis, hhvm, pecl, caching, cache, object cache, performance, replication, clustering  
 Requires at least: 3.3  
-Tested up to: 5.2  
-Requires PHP: 7.3  
-Stable tag: 1.0  
+Tested up to: 5.3  
+Requires PHP: 7.1   
+Stable tag: 1.5.5  
 License: GPLv3  
 License URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
