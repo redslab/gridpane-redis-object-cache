@@ -1,12 +1,12 @@
 <?php
 /*
-Plugin Name: GridPane Redis Object Cache
-Plugin URI: https://gitlab.gridpane.com/gp-public/gridpane-redis-object-cache
+Plugin Name: Reds Lab Redis Object Cache
+Plugin URI: https://redslab.ie
 Description: A persistent object cache backend powered by Redis. Supports Predis, PhpRedis, HHVM, replication, clustering and WP-CLI.
 Version: 1.5.5
 Text Domain: gridpane-redis-object-cache
 Domain Path: /languages
-Author: Till Krüss | Forked by GridPane
+Author: Till Krüss
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -60,7 +60,7 @@ class RedisObjectCache {
 	public function add_admin_menu_page() {
 
 		$parent_slug = is_multisite() ? 'settings.php' : 'options-general.php';
-		$page_title = __( 'GridPane Redis Object Cache', 'gridpane-redis-object-cache');
+		$page_title = __( 'Reds Lab Redis Object Cache', 'gridpane-redis-object-cache');
 		$menu_title = __( 'Redis Object Cache', 'gridpane-redis-object-cache');
 		$capability = is_multisite() ? 'manage_network_options' : 'manage_options';
 		$menu_slug = 'gridpane-redis-object-cache';
